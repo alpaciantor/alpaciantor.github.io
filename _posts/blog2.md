@@ -1,5 +1,5 @@
 ---
-title: blog2 - Jaiman Bhardwaj
+title: blog3 - Jaiman Bhardwaj
 layout: post
 author: jaiman.bhardwaj
 permalink: /blog2---jaiman-bhardwaj/
@@ -9,24 +9,24 @@ published: true
 <table>
   <tr>
     <td>Title:</td>
-    <td>My second lesson using github</td>
+    <td>My third lesson using github</td>
   </tr>
   <tr>
     <td>Date:</td>
-    <td>09/09/16</td>
+    <td>24/09/16</td>
   </tr>
   <tr>
     <td>Starting point:</td>
-    <td>I used git hub one time and i failed.</td>
+    <td>I used git hub two times and just about managed to succeed.</td>
   </tr>
   <tr>
     <td>Target for this lesson?</td>
-    <td>To change the font, colour and profile icon on my githhub page.</td>
+    <td>To allow see through tables on my github site</td>
   </tr>
   <tr>
     <td>Did I reach my target? 
 (add details to "Lesson Review")</td>
-    <td>I managed to change my profile picture but i am stuck on the changing colour and changing fonts page.</td>
+    <td>Well, i made no see through ugly as blue tables and i changed the background.</td>
   </tr>
 </table>
 
@@ -39,21 +39,21 @@ published: true
     <td>How did I learn? What strategies were effective? </td>
   </tr>
   <tr>
-    <td>I learned how to change the icon on my profile on github.</td>
+    <td> I asked my (very helpful) neighbour and managed to change my background to a cool slow(-ish) moving gif.
+
+I learnt how to change my background and that w3schools is an amazing site for coding.</td>
   </tr>
   <tr>
     <td>What limited my learning? Which habits do I need to work on? </td>
   </tr>
   <tr>
-    <td>I accidentally pressed the delete all button on the apple notes app which made it hard for me to remember how to do the task. But i asked the people around me and manage to change my icon.
-
-Also i misspelled my profile name which messed the 'saving changes' part very difficult.</td>
+    <td>I could not work out how to change the tables to clear tables, i need to work on reading a whole article so i know how the thing i am doing works as i only looked at the pictures.</td>
   </tr>
   <tr>
     <td>What will I change for next time? How will I improve my learning?</td>
   </tr>
   <tr>
-    <td>Next time i will use a different note taking software, one that does not have a delete all button.</td>
+    <td>Next time i will read the whole article (no matter how long it takes).</td>
   </tr>
 </table>
 
