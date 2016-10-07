@@ -279,31 +279,7 @@ nav {
   background-color: $lightGray;
 }
 
-footer {
-  padding: 20px 0;
-  text-align: center;
-}
 
-<table>
-
-		<!-- Colgroup -->
-	   <colgroup>
-	      <col class="vzebra-odd"> 
-	      <col class="vzebra-even">
-	      <col class="vzebra-odd">
-	      <col class="vzebra-even">
-	   </colgroup>
-
-		<!-- Table header -->
-	   <thead>
-	      <tr>
-	         <th scope="col" id="vzebra-comedy">Employee</th>
-	         ...
-	      </tr>
-	   </thead>
-
-	   ...
-</table>
 
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
