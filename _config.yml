@@ -9,8 +9,7 @@ name: Jaiman (dolphiticus)
 description: I am a human being who eats, drinks and breathes.
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: url("http://gifmansion.com/GM/uploads/2012/06/rainbowfrog.gif")
-
+avatar: "http://gifmansion.com/GM/uploads/2012/06/rainbowfrog.gif"
 #
 # Flags below are optional
 #
