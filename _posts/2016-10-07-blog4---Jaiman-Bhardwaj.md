@@ -1,32 +1,32 @@
 ---
-title: blog4 - Jaiman Bhardwaj
+title: blog5 - Jaiman Bhardwaj
 layout: post
 author: jaiman.bhardwaj
-permalink: /blog4---jaiman-bhardwaj/
+permalink: /blog5---jaiman-bhardwaj/
 source-id: 1pAiTGl_Ge3q0wCO737GCiQ0FL-pUAsmdLr0egoynWNw
 published: true
 ---
 <table>
   <tr>
     <td>Title:</td>
-    <td>My fourth lesson using github</td>
+    <td>My fifth lesson using github</td>
   </tr>
   <tr>
     <td>Date:</td>
-    <td>24/09/16</td>
+    <td>8/10/16</td>
   </tr>
   <tr>
     <td>Starting point:</td>
-    <td>Bad at github, bad at coding, not good at much.</td>
+    <td>Website = not 100% bad .</td>
   </tr>
   <tr>
     <td>Target for this lesson?</td>
-    <td>To make a shop code </td>
+    <td>To add my exotic animal and scooter shop to a github blog post</td>
   </tr>
   <tr>
     <td>Did I reach my target? 
 (add details to "Lesson Review")</td>
-    <td>I half did, i did the discount and the adding of all the items which is something i guess?</td>
+    <td>Yes, i was able to add my shop spreadsheet to my github page and more.</td>
   </tr>
 </table>
 
@@ -39,22 +39,19 @@ published: true
     <td>How did I learn? What strategies were effective? </td>
   </tr>
   <tr>
-    <td>I again asked the people around me for help and they eventually gave in to me pestering the to help me.</td>
+    <td>I again asked the people around me and used the website W3 schools for help, this was really useful as i managed to get a lot more work done.</td>
   </tr>
   <tr>
     <td>What limited my learning? Which habits do I need to work on? </td>
   </tr>
   <tr>
-    <td>My astronomically bad memory, i could not remember a formula that mr tansley put on the board 30 seconds ago.</td>
+    <td>Firstly and most importantly i need to work on my memory skills, this did not affect me that much this lesson, but it heavily has on previous lessons.</td>
   </tr>
   <tr>
     <td>What will I change for next time? How will I improve my learning?</td>
   </tr>
   <tr>
-    <td>I will try to be better at rembering.</td>
-    <br />
-    <iframe height="320" width="720" src="https://docs.google.com/spreadsheets/d/1DYjA-ZastBkclYQgD0iuBQ4CNXUhB5d__raK7gjEtTg/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
-    
+    <td>I will maximise my time as most of my "spare time" was used for asking to see people around me's page and generally procrastinating.</td>
   </tr>
 </table>
 
