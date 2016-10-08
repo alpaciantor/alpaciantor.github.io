@@ -275,17 +275,12 @@ table, td {
 	border: 1px solid black;
 	padding: 10px;
     border-radius: 5px;
+}
+
 p {
     border: 2px solid black;
     border-radius: 5px;
-	p.inset {border-style: inset;}
-}
-p {
-    border: 2px solid black;
-    border-radius: 5px;
-	p.inset {border-style: inset;}
-}
-// Settled on moving the import of syntax highlighting to the bottom of the CSS
+	p.inset {border-style: inset;}// Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
 @import "svg-icons";
