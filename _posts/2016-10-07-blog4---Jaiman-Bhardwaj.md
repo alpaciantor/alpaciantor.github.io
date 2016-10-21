@@ -1,5 +1,5 @@
 ---
-title: blog5_2.0 - Jaiman Bhardwaj
+title: blog5 - Jaiman Bhardwaj
 layout: post
 author: jaiman.bhardwaj
 permalink: /blog5---jaiman-bhardwaj/
