@@ -30,7 +30,7 @@ body {
   width: 100%;
 }
 
-h1, h2, h3, h4, h5, h6 {h5}
+h1, h2, h3, h4, h5, h6 {
   font-family: "Times New Roman", Times, serif;;
   color: #003311;
   font-weight: bold;
@@ -119,28 +119,7 @@ img {
   font-style: italic;
   color: $gray;
 }
-table {
-border-collapse: collapse;
-width: 100%;
-}
 
-table, th, td {
-border: 1px solid white;
-background-color:#984b43;
-
-}
-
-td {
-vertical-align: middle; 
-padding: 10px;
-}	
-
-th {
-color: white;
-background: #233237;
-height:50px;
-vertical-align: middle;
-}
 // Specify the color of the selection
 ::-moz-selection {
   color: $black;
