@@ -259,12 +259,9 @@ nav {
     color: $gray;
     font-size: 22px;
     font-style: italic;
+    border: 2px solid white;
+    border-radius: 10px;}
   }
-
-  .comments {
-    margin-top: 10px;
-  }
-
   .read-more {
     text-transform: uppercase;
     font-size: 15px;
