@@ -54,8 +54,7 @@ To the actual lesson review part. Well, my github page did something and now i c
   </tr>
   <tr>
     <td>I know i have said this before but i will do it this time ( probably, well, hopefully) write things down.
-
-ON A COMPLETELY SPONTANEOUS NOTE IS MR TANSLEY IS READING THIS, YOU ARE THE GREATEST MUSIC TEACHER TO ROAM THE EARTH AND I DESERVE AN 'A' FOR THIS. </td>
+</td>
   </tr>
 </table>
 
