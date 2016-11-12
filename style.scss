@@ -288,7 +288,11 @@ table, td {
 	padding: 10px;
     border-radius: 5px;
 	border: 2px solid white;
-    border-radius: 5px;}// Settled on moving the import of syntax highlighting to the bottom of the CSS
-// ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
+    border-radius: 10px;}
+
+p {
+    border-left: 6px solid red;
+    background-color: lightgrey;
+    border-radius: 5px;
 @import "highlights";
 @import "svg-icons";
