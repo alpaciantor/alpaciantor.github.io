@@ -1,285 +1,170 @@
----
----
+<html>
+  <head>
+    <link href="http://downloadgamesfree.mobi/favicon.png" rel="shortcut icon">
+    <title>Jodby Berundi</title>
 
-//
-// IMPORTS
-//
 
-@import "reset";
-@import "variables";
-// Syntax highlighting @import is at the bottom of this file
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
 
-/**************/
-/* BASE RULES */
-/**************/
+    <link rel="stylesheet" type="text/css" href="/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="Luke (aka Jodby Berundi) - IT Student" href="/feed.xml" />
+  <link href="https://fonts.googleapis.com/css?family=Architects+Daughter" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css?family=Tillana" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css?family=David+Libre" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet" />
+    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+  </head>
+    
+    <div class="wrapper-masthead">
+        <header class="masthead clearfix">
+          <img src="http://kabirdas.xyz/Literarum-2015/img/avatar1.png"  class="site-avatar"/>
+           
+          <div class="site-info">
+            <h1 class="site-name">Luke (aka Jodby Berundi)</h1>
+            <p class="site-description">IT Student</p>
+          </div>
+          
+           <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="/">Home</a>
+             <a href="/blog_list">Blog List</a>
+            <a href="/about">About</a>         
+              </div>
+          <span class="nav-button" onclick="openNav()">&#9776;</span>
+          
+          <script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+              </script> 
+          
+                </header>  
+          </div> 
+    <div class="slideshow-container">
+  <div class="mySlides fade">
+    <img src="http://bit.ly/2eWx2xt" style="width:100%; height: 450px;">
+    <div class="text">Hello World! Welcome to my Blog!</div>
+  </div>
 
-html {
-  font-size: 100%;
+  <div class="mySlides fade">
+    <img src="http://bit.ly/22hJclf" style="width:100%; height: 450px;">
+    <div class="text">I can put YouTube in my blog!</div>
+  </div>
+
+  <div class="mySlides fade">
+    <img src="http://bit.ly/2fAZYMm" style="width:100%; height: 450px;">
+    <div class="text">The Spreadsheets Begin...</div>
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+      </div>
+    
+    <script>
+   var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
 }
 
-body {
-  background-image: url("http://wallpapercave.com/wp/yFC278I.jpg");
-  font: 18px/1.4 $helvetica;
-  color: $darkGray;
+function currentSlide(n) {
+  showSlides(slideIndex = n);
 }
 
-.container {
-  margin: 0 auto;
-  max-width: 740px;
-  padding: 0 10px;
-  width: 100%;
-  background: rgba(255, 255, 255, 0.7);
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: $helveticaNeue;
-  color: $darkerGray;
-  font-weight: bold;
-
-  line-height: 1.7;
-  margin: 1em 0 15px;
-  padding: 0;
-
-  @include mobile {
-    line-height: 1.4;
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1} 
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none"; 
   }
-}
-
-h1 {
-  font-size: 30px;
-  a {
-    color: inherit;
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
   }
+  slides[slideIndex-1].style.display = "block"; 
+  dots[slideIndex-1].className += " active";
 }
+    </script>
+  <br />
 
-h2 {
-  font-size: 24px;
-}
+    <body>
+          <div id="main" role="main" class="container">
+      <div class="posts">
+ <ul class="img-list">
+  <h1>Most Recent Blogs</h1>
+    <article class="post">  
+     <li>
+       <table class="title" onClick="location.href='https://crazygaming77.github.io/blog-week-7/';">
+<tr>
+<th><strong>Holy Slideshow Batman!</strong></th>
+</tr>
+<tr>
+<th><strong>Friday 21st November 2016</strong></th>
+</tr>
+</table>
+        </li>
+    </article>
+    
+      <article class="post">  
+     <li>
+       <table class="title" onClick="location.href='https://crazygaming77.github.io/blog-week-6/';">
+<tr>
+<th><strong>Super mega spreadsheet of organisation.</strong></th>
+</tr>
+<tr>
+<th><strong>Friday 14th October 2016</strong></th>
+</tr>
+</table>
+        </li>
+    </article>
 
-h3 {
-  font-size: 20px;
-}
+      <article class="post">
+        <li>
+          <table class="title" onClick="location.href='https://crazygaming77.github.io/blog-week-5/';">
+<tr>
+<th><strong>Youtube videos? No problem!</strong></th>
+</tr>
+<tr>
+<th><strong>Friday 7th October 2016</strong></th>
+</tr>
+</table>
+        </li>
+  </article>
+    
+   <article class="posts">
+<li>
+  <table class="title" onClick="location.href='https://crazygaming77.github.io/blog-week-4/';">
+<tr>
+<th><strong>Spreadhseets, spreadsheets everywhere!</strong></th>
+</tr>
+<tr>
+<th><strong>Friday 30th September 2016</strong></th>
+</tr>
+</table>
+     </li>
+    </article>
+    
+  </ul>
+</div>
 
-h4 {
-  font-size: 18px;
-  color: $gray;
-}
+    </div>
 
-p {
-  margin: 15px 0;
-}
+    
 
-a {
-  color: $blue;
-  text-decoration: none;
-	cursor: pointer;
-  &:hover, &:active {
-    color: $blue;
-  }
-}
-
-ul, ol {
-  margin: 15px 0;
-  padding-left: 30px;
-}
-
-ul {
-  list-style-type: disc;
-}
-
-ol {
-  list-style-type: decimal;
-}
-
-ol ul, ul ol, ul ul, ol ol {
-  margin: 0;
-}
-
-ul ul, ol ul {
-  list-style-type: circle;
-}
-
-em, i {
-  font-style: italic;
-}
-
-strong, b {
-  font-weight: bold;
-}
-
-img {
-  max-width: 100%;
-}
-
-// Fixes images in popup boxes from Google Translate
-.gmnoprint img {
-  max-width: none;
-}
-
-.date {
-  font-style: italic;
-  color: $gray;
-}
-
-// Specify the color of the selection
-::-moz-selection {
-  color: $black;
-  background: $lightGray;
-}
-::selection {
-  color: $black;
-  background: $lightGray;
-}
-
-// Nicolas Gallagher's micro clearfix hack
-// http://nicolasgallagher.com/micro-clearfix-hack/
-.clearfix:before,
-.clearfix:after {
-    content: " ";
-    display: table;
-}
-
-.clearfix:after {
-    clear: both;
-}
-
-/*********************/
-/* LAYOUT / SECTIONS */
-/*********************/
-
-//
-// .masthead
-//
-
-.wrapper-masthead {
-  margin-bottom: 50px;
-}
-
-.masthead {
-  padding: 20px 0;
-  border-bottom: 1px solid $lightGray;
-
-  @include mobile {
-    text-align: center;
-  }
-}
-
-.site-avatar {
-  float: left;
-  width: 70px;
-  height: 70px;
-  margin-right: 15px;
-
-  @include mobile {
-    float: none;
-    display: block;
-    margin: 0 auto;
-  }
-
-  img {
-    border-radius: 5px;
-  }
-}
-
-.site-info {
-  float: left;
-
-  @include mobile {
-    float: none;
-    display: block;
-    margin: 0 auto;
-  }
-}
-
-.site-name {
-  margin: 0;
-  color: $darkGray;
-  cursor: pointer;
-  font-family: $helveticaNeue;
-  font-weight: 300;
-  font-size: 28px;
-  letter-spacing: 1px;
-}
-
-.site-description {
-  margin: -5px 0 0 0;
-  color: $gray;
-  font-size: 16px;
-
-  @include mobile {
-    margin: 3px 0;
-  }
-}
-
-nav {
-  float: right;
-  margin-top: 23px; // @TODO: Vertically middle align
-  font-family: $helveticaNeue;
-  font-size: 18px;
-
-  @include mobile {
-    float: none;
-    margin-top: 9px;
-    display: block;
-    font-size: 16px;
-  }
-
-  a {
-    margin-left: 20px;
-    color: $darkGray;
-    text-align: right;
-    font-weight: 300;
-    letter-spacing: 1px;
-
-    @include mobile {
-      margin: 0 10px;
-      color: $blue;
-    }
-  }
-}
-
-//
-// .main
-//
-
-.posts > .post {
-  padding-bottom: 2em;
-  border-bottom: 1px solid $lightGray;
-}
-
-.posts > .post:last-child {
-  padding-bottom: 1em;
-  border-bottom: none;
-}
-
-.post {
-  blockquote {
-    margin: 1.8em .8em;
-    border-left: 2px solid $gray;
-    padding: 0.1em 1em;
-    color: $gray;
-    font-size: 22px;
-    font-style: italic;
-  }
-
-  .comments {
-    margin-top: 10px;
-  }
-
-  .read-more {
-    text-transform: uppercase;
-    font-size: 15px;
-  }
-}
-table, td {
-	border: 1px solid black;
-	padding: 10px;
-    border-radius: 5px;
-	border: 2px solid white;
-    border-radius: 10px;}
-
-p {
-    border-left: 6px solid red;
-    background-color: lightgrey;
-    border-radius: 5px;
-}
+  </body>
+</html>
