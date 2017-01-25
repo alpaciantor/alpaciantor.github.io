@@ -1,5 +1,5 @@
 ---
-title: Blog7
+title: Blog 7
 layout: post
 author: jaiman.bhardwaj
 permalink: /blog7---jaiman-bhardwaj/
