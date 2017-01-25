@@ -1,5 +1,5 @@
 ---
-title: Blog number1
+title: Blog 1
 layout: post
 author: jaiman.bhardwaj
 permalink: /blog-number1/
