@@ -271,12 +271,14 @@ nav {
     font-size: 15px;
   }
 }
-table, td {
-style="border-radius: 10px; box-shadow: 3px 3px 5px #000; width: 100%; height: 260px;"
-p {
-    border-left: 6px solid red;
-    background-color: lightgrey;
-    border-radius: 5px;
+
+table, td, th {
+	border-radius: 10px;;
+	padding: 10px;
+}
+table {
+	box-shadow: 0px 3px 10px  #000;
+	background-color: rgba(255, 255, 255,0.5);
 }
 
 
