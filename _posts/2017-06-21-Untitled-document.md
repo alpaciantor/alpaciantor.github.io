@@ -8,5 +8,5 @@ published: true
 ---
 Helpful tip:
 
-Also, to anybody watching this I found a really helpful video on python, it's only around 5 minutes but i really benefited from it: [Here](https://goo.gl/8p3U3j)
+Also, to anybody watching this I found a really helpful video on python, it's only around 5 minutes but I really benefited from it: [Here](https://goo.gl/8p3U3j)
 
